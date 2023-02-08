@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "mainCategory": "Electronics",
+      "id":"100",
+      "subCategories": [
+        {
+          "id": 11,
+          "name": "Televisions",
+          "price": 5000
+        },
+        {
+          "id": 12,
+          "name": "Headphones",
+          "price": 2000
+        },
+        {
+          "id": 13,
+          "name": "Smartphones",
+          "price": 8000
+        },
+        {
+          "id": 14,
+          "name": "Speakers",
+          "price": 6000
+        },
+        {
+          "id": 15,
+          "name": "Tablets",
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "mainCategory": "Furniture",
+      "id":"101",
+      "subCategories": [
+        {
+          "id": 21,
+          "name": "Sofa Set",
+          "price": 8000
+        },
+        {
+          "id": 22,
+          "name": "Dining Table",
+          "price": 6000
+        },
+        {
+          "id": 23,
+          "name": "Bed",
+          "price": 7000
+        },
+        {
+          "id": 24,
+          "name": "Wardrobe",
+          "price": 9000
+        },
+        {
+          "id": 25,
+          "name": "Bookshelf",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "mainCategory": "Mobile Phones",
+      "id":"102",
+
+      "subCategories": [
+        {
+          "id": 26,
+
+          "name": "iPhone",
+          "price": 55000
+        },
+        {
+          "id": 27,
+
+          "name": "Samsung",
+          "price": 60000
+        },
+        {
+          "id": 28,
+          "name": "Xiaomi",
+          "price": 65000
+        },
+        {
+          "id": 29,
+          "name": "OnePlus",
+          "price": 70000
+        },
+        {
+          "id": 30,
+          "name": "Realme",
+          "price": 57000
+        }
+      ]
+    },
+    {
+      "mainCategory": "Laptops",
+      "id":"103",
+
+      "subCategories": [
+        {
+          "id": 31,
+
+          "name": "Dell",
+          "price": 55000
+        },
+        {
+          "id": 32,
+
+          "name": "HP",
+          "price": 60000
+        },
+        {
+          "id": 33,
+
+          "name": "Lenovo",
+          "price": 65000
+        },
+        {
+          "id": 34,
+
+          "name": "Apple",
+          "price": 70000
+        },
+        {
+          "id": 35,
+
+          "name": "Acer",
+          "price": 57000
+        }
+      ]
+    },
+    {
+      "mainCategory": "Books",
+      "id":"104",
+
+      "subCategories": [
+        {
+          "id": 36,
+
+          "name": "Novels",
+          "price": 11000
+        },
+        {
+          "id": 37,
+
+          "name": "Textbooks",
+          "price": 14000
+        },
+        {
+          "id": 38,
+
+          "name": "Self-help books",
+          "price": 15000
+        },
+        {
+          "id": 39,
+
+          "name": "Cookbooks",
+          "price": 3200
+        },
+        {
+          "id": 40,
+
+          "name": "Children's books",
+          "price": 5700
+        }
+      ]
+    }
+  ]
+}    
+ 
