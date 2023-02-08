@@ -51,7 +51,7 @@ const SearchBar = ({ selectedPriceRange }) => {
                 rangeBounds.some(
                   ([lower, upper]) =>
                     subCategory.price >= (lower || 0) &&
-                    subCategory.price <= (upper || Infinity)
+                    subCategory.price <= (upper || 70000)
                 )
               );
             }

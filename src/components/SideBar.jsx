@@ -1,4 +1,3 @@
-import { useState } from "react";
 const categories = require("../utils/categories.json");
 
 const Sidebar = ({

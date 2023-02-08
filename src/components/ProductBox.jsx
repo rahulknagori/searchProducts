@@ -27,9 +27,7 @@ const ProductBox = ({ selectedFilters, selectedPriceRange }) => {
       );
       const subCategories = category.subCategories.filter((subCategory) => {
         const price = subCategory.price;
-        return rangeBounds.some(
-          ([lower, upper]) => price >= lower && price <= upper
-        );
+        return rangeBounds.some((item) => price >= item[0] && price <= item[1]);
       });
       return { ...category, subCategories };
     } else {
@@ -52,7 +50,6 @@ const ProductBox = ({ selectedFilters, selectedPriceRange }) => {
       {!showNotFound &&
         products.map((mainCategory) => (
           <div key={mainCategory.id}>
-            {/* <h2>{mainCategory.mainCategory}</h2> */}
             <ul className="grid grid-cols-3 gap-5">
               {mainCategory.subCategories.map((subCategory) => (
                 <div
